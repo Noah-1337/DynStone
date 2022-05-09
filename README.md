@@ -9,7 +9,8 @@ The image below shows my setup with two ESP32. In this case i marked the receivi
 ![IMG_9056](https://user-images.githubusercontent.com/97415279/167385777-ca7d9648-0d2d-475d-bc3a-cab13ee58706.jpg)
 
 Once both ESP32 were configured with the provided .ino files you can start communicating with them via the python GUI.
-The first window will ask you to choose between sending (Senden) and receiving (Empfangen) information. 
+The first window will ask you to choose between sending (Senden) and receiving (Empfangen) information.
+
 ![unknownchoose](https://user-images.githubusercontent.com/97415279/167387829-ada9340b-13f7-4980-809f-1886ee295b83.png)
 
 When picking the first one you will be prompted with a new window, which let's you pick the relevant port for the ESP32 as well as define the information that should be send over. This application is written for a very specific function, which is why you are only allowed to send specific values in a specific range. 
