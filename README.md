@@ -17,4 +17,5 @@ When picking the first one you will be prompted with a new window, which let's y
 Zielgeschwindigkeit:  (Int) from 0 to 120
 Zielentfernung:       (Int) from 0 to 1000
 GKS(Signal)Nummer:    (Int) from 0 to 1023
+
 ![unknown](https://user-images.githubusercontent.com/97415279/167387963-275c86b9-d724-4136-a670-9e60f4c5d334.png)
