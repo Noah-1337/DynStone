@@ -14,6 +14,7 @@ The first window will ask you to choose between sending (Senden) and receiving (
 ![unknownchoose](https://user-images.githubusercontent.com/97415279/167387829-ada9340b-13f7-4980-809f-1886ee295b83.png)
 
 When picking the first one you will be prompted with a new window, which let's you pick the relevant port for the ESP32 as well as define the information that should be send over. This application is written for a very specific function, which is why you are only allowed to send specific values in a specific range. 
+
 Zielgeschwindigkeit:  (Int) from 0 to 120
 
 Zielentfernung:       (Int) from 0 to 1000
