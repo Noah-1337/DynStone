@@ -22,3 +22,9 @@ Zielentfernung:       (Int) from 0 to 1000
 GKS(Signal)Nummer:    (Int) from 0 to 1023
 
 ![unknown](https://user-images.githubusercontent.com/97415279/167387963-275c86b9-d724-4136-a670-9e60f4c5d334.png)
+
+After sending the desired information we can create a second instance of the program or simple relaunch it but we will choose (Empfangen) this time. This prompts us with this window which simply requires a port to be selected and with the press of a button and if everything worked out you should receive the information you send before exactly as you send it in the three labels of the window.
+
+![unknownr](https://user-images.githubusercontent.com/97415279/167388670-7036ee44-a66d-4560-a0cc-b3c3b79df099.png)
+
+Now, this code is very simple but quite restrictive. If you plan on changing it i would advice to have a good look into the .ino files in which you will be able to see that this program has a maximum transfer limit of 17 bytes. The content of those bytes can be chosen as you wish and will be stored in a simple char array until the ESP32 reboots or gets new information.
